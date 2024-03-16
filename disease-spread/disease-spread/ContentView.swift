@@ -31,13 +31,13 @@ struct ContentView: View {
                     Slider(value: $infectiousPeriod, in: 1...20, step: 1).padding()
                 }
                 HStack {
-                    Text("Infectivity (Tau)")
+                    Text("Infectivity")
                         .frame(width: 100, alignment: .leading)
                     Spacer()
                     Slider(value: $beta, in: 0.05...5, step: 0.05).padding()
                 }
                 HStack {
-                    Text("Lethality (Beta)")
+                    Text("Lethality")
                         .frame(width: 100, alignment: .leading)
                     Spacer()
                     Slider(value: $tau, in: 0.05...10, step: 0.05).padding()
