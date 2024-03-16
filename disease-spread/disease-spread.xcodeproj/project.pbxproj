@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F5A6BC482BA4DCB40049ACF5 /* DiseaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A6BC472BA4DCB40049ACF5 /* DiseaseController.swift */; };
 		F5E495702BA4CE9E00FF2525 /* disease_spreadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E4956F2BA4CE9E00FF2525 /* disease_spreadApp.swift */; };
 		F5E495722BA4CE9E00FF2525 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E495712BA4CE9E00FF2525 /* ContentView.swift */; };
 		F5E495742BA4CE9E00FF2525 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5E495732BA4CE9E00FF2525 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F5A6BC472BA4DCB40049ACF5 /* DiseaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiseaseController.swift; sourceTree = "<group>"; };
 		F5E4956C2BA4CE9E00FF2525 /* disease-spread.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "disease-spread.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5E4956F2BA4CE9E00FF2525 /* disease_spreadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = disease_spreadApp.swift; sourceTree = "<group>"; };
 		F5E495712BA4CE9E00FF2525 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 				F5E495712BA4CE9E00FF2525 /* ContentView.swift */,
 				F5E495732BA4CE9E00FF2525 /* Assets.xcassets */,
 				F5E495752BA4CE9E00FF2525 /* Preview Content */,
+				F5A6BC472BA4DCB40049ACF5 /* DiseaseController.swift */,
 			);
 			path = "disease-spread";
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5E495722BA4CE9E00FF2525 /* ContentView.swift in Sources */,
+				F5A6BC482BA4DCB40049ACF5 /* DiseaseController.swift in Sources */,
 				F5E495702BA4CE9E00FF2525 /* disease_spreadApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +279,7 @@
 				DEVELOPMENT_TEAM = D6MFYYVHA8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tau Beta";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +309,7 @@
 				DEVELOPMENT_TEAM = D6MFYYVHA8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tau Beta";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
